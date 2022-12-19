@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natal</title>
+   
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+ 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+   
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    
+    <header class="header" id="header">
+        <h1>
+            <a href="#" class="logo">
+                <i class="fa-solid fa-tree icon__log"></i> CHRISTMAS
+            </a>
+        </h1>
+
+        <nav class="nav" id="nav">
+            <ul class="nav__menu">
+                <li class="nav__item">
+                    <a href="#home" class="nav__link active-link">HOME</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#about" class="nav__link">SOBRE</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#category" class="nav__link">CATEGORIA</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#accessory" class="nav__link">ACESSÓRIOS</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#contact" class="nav__link">CONTATO</a>
+                </li>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="fa-solid fa-x icon__close"></i>
+                </div>
+            </ul>
+            <img src="assets/img/nav-img.png" class="nav__img" alt="nav image">
+        </nav>
+
+        <div class="nav__cart">
+            <i class="fa-solid fa-sleigh icon__cart"></i>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fa-solid fa-bars icon__toggle"></i>
+            </div>
+        </div>
+    </header>
+   
+    <main>
+   
+        <section class="home section grid" id="home">
+            <div class="home__content container">
+                <h1 class="home__title"><span>Natal</span><br>esta chegando</h1>
+                <p class="home__subtitle">Celebre e Aproveite</p>
+
+                <div class="countdown" id="countdown">
+                    <div class="time">
+                        <h2 id="days">00</h2>
+                        <small>dias</small>
+                    </div>
+                    <div class="time">
+                        <h2 id="hours">00</h2>
+                        <small>horas</small>
+                    </div>
+                    <div class="time">
+                        <h2 id="minutes">00</h2>
+                        <small>minutos</small>
+                    </div>
+                    <div class="time">
+                        <h2 id="seconds">00</h2>
+                        <small>segundos</small>
+                    </div>
+                </div>
+                <img src="assets/img/spinner.gif" alt="carregabdo..." id="loading" class="loading">
+            </div>
+
+            <div class="hero__img">
+                <img src="assets/img/hero-img.png" alt="home image">
+            </div>
+        </section>
+      
+        <section class="about section container grid" id="about">
+            <div class="about__content">
+                <h1>O <span>Natal</span> acontece no dia 25 de dezembro
+                    e celebra o nascimento de Jesus Cristo.</h1>
+                <p>Chegou a época mais mágica do ano, de luz, alegria
+                    e ter a famíla reunida em festa e harmonia.</p>
+                <a href="#" class="btn"><i class="fa-solid fa-gift"></i> DOAR UM PRESENTE</a>
+            </div>
+            <div class="about__img">
+                <img src="assets/img/about-img.png" alt="about image">
+            </div>
+        </section>
+  
+        <section class="category section container" id="category">
+            <h1 class="section__title">Navegue pelas <span>categorias</span></h1>
+
+            <div class="category__content grid">
+                <div class="category__card">
+                    <img src="assets/img/category-img-1.png" alt="category image">
+                    <h2 class="category__desc">Acessorios</h2>
+                </div>
+
+                <div class="category__card">
+                    <img src="assets/img/category-img-2.png" alt="category image">
+                    <h2 class="category__desc">Doces</h2>
+                </div>
+
+                <div class="category__card">
+                    <img src="assets/img/category-img-3.png" alt="category image">
+                    <h2 class="category__desc">Decorações</h2>
+                </div>
+            </div>
+        </section>
+ 
+        <section class="donate section container grid">
+            <div class="donate__title">
+                <h1>Compartilhar é o melhor presente
+                    que você pode dar.</h1>
+                <a href="#" class="btn"><i class="fa-solid fa-gift"></i> DOAR UM PRESENTE</a>
+            </div>
+            <div class="donate__img">
+                <img src="assets/img/donate-img.png" alt="donate image">
+            </div>
+        </section>
+    
+        <section class="accessory section container" id="accessory">
+            <h1 class="section__title">Acessórios <span>Natalinos</span></h1>
+            <p class="section__subtitle">Acessórios para sua árvore de natal,
+                mesa, lareira e muito mais.</p>
+
+                <div class="accessory__cards grid">
+                    <article class="accessory__card">
+                        <img src="assets/img/accessory-img-1.png" alt="accessory image">
+                        <h2 class="accessory__desc">Boneco de neve</h2>
+                        <span class="accessory__price">R$ 9,99</span>
+                        <a href="#" class="btn__icon">
+                            <i class="fa-solid fa-sleigh icon__cart"></i>
+                        </a>
+                    </article>
+    
+                    <article class="accessory__card">
+                        <img src="assets/img/accessory-img-2.png" alt="accessory image">
+                        <h2 class="accessory__desc">Meia para presente</h2>
+                        <span class="accessory__price">R$ 12,99</span>
+                        <a href="#" class="btn__icon">
+                            <i class="fa-solid fa-sleigh icon__cart"></i>
+                        </a>
+                    </article>
+    
+                    <article class="accessory__card">
+                        <img src="assets/img/accessory-img-3.png" alt="accessory image">
+                        <h2 class="accessory__desc">Boneco Papai Noel</h2>
+                        <span class="accessory__price">R$ 24,99</span>
+                        <a href="#" class="btn__icon">
+                            <i class="fa-solid fa-sleigh icon__cart"></i>
+                        </a>
+                    </article>
+    
+                    <article class="accessory__card">
+                        <img src="assets/img/accessory-img-4.png" alt="accessory image">
+                        <h2 class="accessory__desc">Globo de neve</h2>
+                        <span class="accessory__price">R$ 24,99</span>
+                        <a href="#" class="btn__icon">
+                            <i class="fa-solid fa-sleigh icon__cart"></i>
+                        </a>
+                    </article>
+    
+                    <article class="accessory__card">
+                        <img src="assets/img/accessory-img-5.png" alt="accessory image">
+                        <h2 class="accessory__desc">Pelucia Boneco de neve</h2>
+                        <span class="accessory__price">R$ 29,99</span>
+                        <a href="#" class="btn__icon">
+                            <i class="fa-solid fa-sleigh icon__cart"></i>
+                        </a>
+                    </article>
+    
+                    <article class="accessory__card">
+                        <img src="assets/img/accessory-img-6.png" alt="accessory image">
+                        <h2 class="accessory__desc">Pelucia Boneco de neve</h2>
+                        <span class="accessory__price">R$ 29,99</span>
+                        <a href="#" class="btn__icon">
+                            <i class="fa-solid fa-sleigh icon__cart"></i>
+                        </a>
+                    </article>
+                </div>
+
+        </section>
+    
+        <section class="discount section container grid">
+            <div class="discount__img">
+                <img src="assets/img/discount-img.png" alt="donate image">
+            </div>
+            <div class="discount__content">
+                <h1>Oferta natalina <br> 
+                    <span>50%</span> off<br> 
+                    <b>para pedidos online</b>
+                </h1>
+            </div>
+        </section>
+     
+        <section class="contact section container grid" id="contact">
+            <div class="contact__content">
+                <h1>Entre em contato conosco: </h1>
+                <h2>Ligue para nós</h2>
+                <div class="contact__info">
+                    <i class="fa-solid fa-phone icon__contact"></i>
+                    <a href="">(44)3*30-7*70</a>
+                </div>
+                <h2>Envie um e-mail:</h2>
+                <div class="contact__info">
+                    <i class="fa-solid fa-envelope icon__contact"></i>
+                    <a href="mailto:email@email.com.br">email@email.com.br</a>
+                </div>
+            </div>
+
+            <form class="contact__form">
+                <h2>Ou deixe sua mensagem</h2>
+                <label for="">E-MAIL 
+                    <input type="email" required>
+                </label>
+
+                <label for="">TÍTULO 
+                    <input type="text" required>
+                </label>
+
+                <div class="textarea__label">
+                    <small>MENSAGEM</small>
+                    <textarea rows="4" required></textarea>
+                </div>
+                
+                <button type="submit" class="btn">ENVIAR MENSAGEM</button>
+            </form>
+        </section>
+    </main>
+  
+    <footer class="footer" id="footer">
+        <div class="footer__container container">
+            <div class="footer__logo">
+                <h1>
+                    <a href="#" class="logo">
+                        <i class="fa-solid fa-tree icon__log"></i> CHRISTMAS
+                    </a>
+                </h1>
+
+                <div class="social__box">
+                    <a href="#"><i class="fa-brands fa-square-facebook icon__social"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-instagram icon__social"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-twitter icon__social"></i></a>
+                </div>
+            </div>
+
+            <div class="footer__adress">
+                <h3 class="footer__title">Nosso endereço</h3>
+                <small class="footer__subtitle"> Avenida XV de Novembro, n°0000  <br> Maringá-Pr</small>
+            </div>
+
+            <div class="footer__cta">
+                <h3 class="footer__title">Inscreva-se para ficar por dentro das novidades</h3>
+                <form class="form__control">
+                    <input type="email" placeholder="Seu melhor e-mail">
+                    <button type="submit" class="btn">INSCREVER</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer__cards">
+            <img src="assets/img/img-card1.jpg" alt=" card image">
+            <img src="assets/img/img-card2.jpg" alt=" card image">
+            <img src="assets/img/img-card3.jpg" alt=" card image">
+            <img src="assets/img/img-card4.jpg" alt=" card image">
+        </div>
+
+        <div class="copy">
+            <p>&copy Todos os direitos reservados</p>
+            <span>Feito com carinho por SaraSouza - 2022 <br> <strong> Créditos:MarquesCode </strong><br> </span>
+        </div>
+    </footer>
+
+    <!--=============== SCROOL REVERAL ===================-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!--=============== FONT-AWESOME JS ==================-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js" integrity="sha512-rpLlll167T5LJHwp0waJCh3ZRf7pO6IT1+LZOhAyP6phAirwchClbTZV3iqL3BMrVxIYRbzGTpli4rfxsCK6Vw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--=============== STYLE JS =========================-->
+    <script src="assets/js/style.js"></script>
+
+</body>
+
+</html>
