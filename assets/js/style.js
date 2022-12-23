@@ -1,23 +1,22 @@
-/*========= SHOW MENU ====================================*/
+
 const navMenu = document.getElementById('nav'),
     navToggle = document.getElementById('nav-toggle'),
     navClose = document.getElementById('nav-close')
 
-/* MENU SHOW */
+
 if(navToggle){
     navToggle.addEventListener('click', () => {
         navMenu.classList.add('show-menu')
     })
 }
 
-/* MENU HIDDEN */
+
 if(navClose){
     navClose.addEventListener('click', () => {
         navMenu.classList.remove('show-menu')
     })
 }
 
-/*========= REMOVER MENU MOBILE ==========================*/
 const navLink = document.querySelectorAll('.nav__link')
 
 function linkAction(){
@@ -27,7 +26,7 @@ function linkAction(){
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
-/*========= BOX SHADOW NO HEADER =========================*/
+
 function scrollHeader(){
     const scrollHeader = document.getElementById('header')
 
@@ -38,7 +37,8 @@ function scrollHeader(){
     }
 }
 window.addEventListener('scroll', scrollHeader)
-/*========= SCROLL SECTIONS ACTIVE LINK ==================*/
+
+
 const sections = document.querySelectorAll('section[id]')
 
 const scrollActive = () => {
@@ -59,7 +59,7 @@ const scrollActive = () => {
 }
 window.addEventListener('scroll', scrollActive)
 
-/*========= COUNTDOWN ====================================*/
+
 const secondsContainer = document.querySelector('#seconds')
 const minutesContainer = document.querySelector('#minutes')
 const hoursContainer = document.querySelector('#hours')
